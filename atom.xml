@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://sonejah21.github.io/atom.xml" rel="self"/>
   <link href="http://sonejah21.github.io/"/>
-  <updated>2013-09-24T23:19:36-04:00</updated>
+  <updated>2013-09-24T23:24:15-04:00</updated>
   <id>http://sonejah21.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://sonejah21.github.io/blog/2013/09/24/hello-world/"/>
+    <updated>2013-09-24T22:53:00-04:00</updated>
+    <id>http://sonejah21.github.io/blog/2013/09/24/hello-world</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been just two days of coding classes here at the Flatiron School and I have to admit, I&rsquo;ve never experienced anything like this before. The intense part is I can&rsquo;t even claim to know what it is exactly, but something huge is taking place.</p>
+
+<p>For now, I trust that the above statement is true. Let&rsquo;s go ahead and disregard the fact that my brain completely froze today by about 4pm, causing me to wonder how to spell basic words, or remember if asking git for a list would be &ldquo;li&rdquo; or &ldquo;ls&rdquo; while staring blankly at my screen. It was in that moment that I recalled my first week studying spanish in a full immersion setting where I knew slightly more than my two flatmates and was in charge of translation.</p>
+
+<p>&lt;&mdash; more &mdash;>
+&ldquo;Continue &mdash;>&rdquo;
+While it&rsquo;s going to be a long, arduous road full of road blocks and potholes to stumbled over and into, I think we&rsquo;ve entered this place in our lives with momentum and the will to get us through, provided we can ask really dumb questions about basic commands when the going gets rough.</p>
+
+<p>Cheers to more mental bashing and bruising!
+Sonja Hall</p>
+]]></content>
+  </entry>
   
 </feed>
