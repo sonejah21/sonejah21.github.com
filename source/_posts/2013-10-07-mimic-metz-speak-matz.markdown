@@ -33,7 +33,7 @@ Two of my favorite ideas that she presented were the following:
 
 ![Go Ahead, Make a Mess](/images/slide2.png)
 
-The graphic interacts with each step of her code, warning her to "move" or "minimize" each piece of code she is considering if it enters the red or orange zones of "Unstable" or "Outside of My Purpose, while allowing it to remain in the top green section that is considered "Stable" and "Within My Purpose"
+The graphic interacts with each step of her code, warning her to "move" or "minimize" each piece of code she is considering if it enters the red or orange zones of "Unstable" or "Outside of My Purpose, while allowing it to remain in the top green section that is considered "Stable" and "Within My Purpose".
 
 
 ![Go Ahead, Make a Mess](/images/slide3.png)
