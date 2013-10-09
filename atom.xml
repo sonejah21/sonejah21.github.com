@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Sonja Hall]]></title>
+  <link href="http://sonejah21.github.io/atom.xml" rel="self"/>
+  <link href="http://sonejah21.github.io/"/>
+  <updated>2013-10-09T13:15:38-04:00</updated>
+  <id>http://sonejah21.github.io/</id>
+  <author>
+    <name><![CDATA[Sonja Hall]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mimic Metz. Speak Matz.]]></title>
+    <link href="http://sonejah21.github.io/blog/2013/10/07/mimic-metz-speak-matz/"/>
+    <updated>2013-10-07T21:54:00-04:00</updated>
+    <id>http://sonejah21.github.io/blog/2013/10/07/mimic-metz-speak-matz</id>
+    <content type="html"><![CDATA[<p>While many of us hate to admit it as adults, learning brand new skills requires a healthy dose of duplication to get past the beginner hurdles. If we think back to elementary school when we noticed a classmate copying our finger painting stroke-by-stroke or repeating what we say word-for-word, it was obnoxious and downright confusing.</p>
+
+<!-- more -->
+
+
+<p>Continue &mdash;></p>
+
+<p>Just two weeks into the Flatiron School&rsquo;s Ruby on Rails course and I finally understand what those copycat kids were up to.</p>
+
+<p>I am officially in awe of the fluid, concise Ruby brain matter that spills out of our instructors. In fact, the only thing I want to surround myself with is the symphony of high class, exceptional Ruby classes, methods and hashes. I want to listen to it, watch it get sharpened, and hopefully etch each of their gorgeous melodies into memory for future use.</p>
+
+<p>While the latter has not happened quite yet, the promising conclusion I&rsquo;ve come to is that by surrounding myself with the best practices of Ruby &ndash; especially the most structured approach to looking at each problem &ndash; the flow of coding is an inevitable result with such fantastic mentors.</p>
+
+<p><img src="http://sonejah21.github.io/images/slide4.png" alt="Go Ahead, Make a Mess" /></p>
+
+<p>Speaking of which, Sandi Metz and her presentation &ldquo;Go Ahead, Make a Mess&rdquo; (found on Speaker Deck) propelled me to write this blogpost to encourage other beginners to seek out teachers who can dive right into the necessary &ldquo;programmer&rsquo;s mindset&rdquo;. After a spin through her 266 slides on the matter of object-oriented, human intuition-driven design, I classify myself as another hardcore Metz follower of the Matz language.</p>
+
+<p>Two of my favorite ideas that she presented were the following:</p>
+
+<ol>
+<li>Like a 4-step rehab for the anxiety-prone noobs, she encourages the mess and shows her problem-solving approach to coding (along with several clairvoyant examples).</li>
+</ol>
+
+
+<p><img src="http://sonejah21.github.io/images/slide1.png" alt="Go Ahead, Make a Mess" /></p>
+
+<ol>
+<li>Metz explains her reasoning through a colorful infographic that separates one&rsquo;s &ldquo;Knowledge Plot&rdquo; into four sections.</li>
+</ol>
+
+
+<p><img src="http://sonejah21.github.io/images/slide2.png" alt="Go Ahead, Make a Mess" /></p>
+
+<p>The graphic interacts with each step of her code, warning her to &ldquo;move&rdquo; or &ldquo;minimize&rdquo; each piece of code she is considering if it enters the red or orange zones of &ldquo;Unstable&rdquo; or &ldquo;Outside of My Purpose, while allowing it to remain in the top green section that is considered &#8220;Stable&rdquo; and &ldquo;Within My Purpose&rdquo;.</p>
+
+<p><img src="http://sonejah21.github.io/images/slide3.png" alt="Go Ahead, Make a Mess" /></p>
+
+<p>Thank you, Sandi Metz, for putting your lessons out there for us noobs to reflect upon and etch into our Ruby mindsets! Your poise, articulation of ideas and steadfast approach to writing code is an inspiration to us all.</p>
+]]></content>
+  </entry>
+  
+</feed>
