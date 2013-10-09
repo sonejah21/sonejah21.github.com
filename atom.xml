@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Sonja Hall]]></title>
   <link href="http://sonejah21.github.io/atom.xml" rel="self"/>
   <link href="http://sonejah21.github.io/"/>
-  <updated>2013-10-08T09:11:22-04:00</updated>
+  <updated>2013-10-09T13:15:38-04:00</updated>
   <id>http://sonejah21.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Sonja Hall]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -51,7 +51,7 @@
 
 <p><img src="http://sonejah21.github.io/images/slide2.png" alt="Go Ahead, Make a Mess" /></p>
 
-<p>The graphic interacts with each step of her code, warning her to &ldquo;move&rdquo; or &ldquo;minimize&rdquo; each piece of code she is considering if it enters the red or orange zones of &ldquo;Unstable&rdquo; or &ldquo;Outside of My Purpose, while allowing it to remain in the top green section that is considered &#8220;Stable&rdquo; and &ldquo;Within My Purpose&rdquo;</p>
+<p>The graphic interacts with each step of her code, warning her to &ldquo;move&rdquo; or &ldquo;minimize&rdquo; each piece of code she is considering if it enters the red or orange zones of &ldquo;Unstable&rdquo; or &ldquo;Outside of My Purpose, while allowing it to remain in the top green section that is considered &#8220;Stable&rdquo; and &ldquo;Within My Purpose&rdquo;.</p>
 
 <p><img src="http://sonejah21.github.io/images/slide3.png" alt="Go Ahead, Make a Mess" /></p>
 
