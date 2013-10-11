@@ -16,7 +16,7 @@ When we switch gears into Ruby, parentheses are no longer representative of a po
 
 In a blogpost written by a [Alan Skorkin](http://www.skorks.com/2009/08/method-arguments-in-ruby/), he says that contrary to popular belief, a method argument should be broken up into three separate, and easily digestible categories: 
 
-## Required arguments (aka: "Ordinal Params")
+### Required arguments (aka: "Ordinal Params")
 
 
 Required arguments are your run-of-the-mill arguments. Nothing left to the imagination, require arguments are straightforward in their approach to gathering information from other sources. 
@@ -30,7 +30,7 @@ Once you have defined your method, you will always need to provide the same numb
 
 ![Arguments with Default Values.](/images/2013-10-11/image-4.jpg)
 
-## Arguments with Default Values** (aka: "Params with Default Values")
+### Arguments with Default Values (aka: "Params with Default Values")
 
 Instead of assigning a specific number of arguments, you may also assign assigning a default value to an argument.
 
@@ -50,7 +50,7 @@ The first example (above) calls the method without placing a value as its third 
 
 ![Optional Arguments.](/images/2013-10-11/image-2.jpg)
 
-## Optional arguments (aka: "Arguments as an Array")
+### Optional arguments (aka: "Arguments as an Array")
 
 This is a special method argument that Ruby allows you to use that many refer to as "splat". 
 
