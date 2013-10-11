@@ -12,12 +12,11 @@ When we switch gears into Ruby, parentheses are no longer representative of a po
 
 <!-- more -->
 
+In a blogpost written by a [Alan Skorkin](http://www.skorks.com/2009/08/method-arguments-in-ruby/), he says that contrary to popular belief, a method argument should be broken up into three separate, and easily digestible categories: required arguments, arguments with default values, and optional arguments.
+
 ![Required arguments.](/images/2013-10-11/image-1.jpg)
 
-In a blogpost written by a [Alan Skorkin](http://www.skorks.com/2009/08/method-arguments-in-ruby/), he says that contrary to popular belief, a method argument should be broken up into three separate, and easily digestible categories: 
-
 ### Required arguments (aka: "Ordinal Params")
-
 
 Required arguments are your run-of-the-mill arguments. Nothing left to the imagination, require arguments are straightforward in their approach to gathering information from other sources. 
 
@@ -90,4 +89,4 @@ Since each required value gets an assigned value, the default value kicks in wit
 
 While method arguments are seemingly basic at first glance, understanding the way they work by themselves, with default values and optional parameters, as well in unison while all hanging out in the same set of parentheses is an integral stepping stone to making your beginner Ruby methods function properly. 
 
-Happy arguments!
+Happy arguing!
