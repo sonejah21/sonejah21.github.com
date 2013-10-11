@@ -9,7 +9,6 @@ categories:
 While many of us hate to admit it as adults, learning brand new skills requires a healthy dose of duplication to get past the beginner hurdles. If we think back to elementary school when we noticed a classmate copying our finger painting stroke-by-stroke or repeating what we say word-for-word, it was obnoxious and downright confusing.
 
 <!-- more -->
-Continue -->
 
 Just two weeks into the Flatiron School's Ruby on Rails course and I finally understand what those copycat kids were up to.
 
