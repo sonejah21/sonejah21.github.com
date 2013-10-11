@@ -25,7 +25,7 @@ Required arguments are your run-of-the-mill arguments. Nothing left to the imagi
 
 Once you have defined your method, you will always need to provide the same number of arguments when calling the method. 
 
-    method_example( 2013, "Flatiron School" ) 
+    method_example( 2013, "Flatiron School" )
 
 ![Arguments with Default Values.](/images/2013-10-11/image-4.jpg)
 
@@ -39,11 +39,11 @@ Instead of assigning a specific number of arguments, you may also assign assigni
 You can then call this method in one of two ways:
 
     horse_method( 2, "shire" )
+    #=> horse_method( 2, "shire", "appaloosa")
 
  *- OR -*
 
-    horse_method( 41,  "shire",  2013 )
-
+    horse_method( 2,  "shire",  "thoroughbred" )
 
 The first example (above) calls the method without placing a value as its third parameter, resulting in the default value filled in as its third parameter. The second example has three parameters set and does not need to use the default value.
 
@@ -63,6 +63,7 @@ At a basic level, the optional argument allows you to decide at runtime how many
 Which could be called with: 
 
     caffe_method( "cappuccino", "espresso", "macchiato" )
+    #=> [ "cappuccino", "espresso", "macchiato" ] 
 
 You can then call it with any number of arguments, or no methods at all, resulting in an array with the exact number of arguments specified (or none at all if no arguments were defined).
 
@@ -81,9 +82,7 @@ If called with:
 
     combination_method( 21, 31, 11 )
 
-It would result in:
-
-    a = 21, b = 31, c = 5, d=[], e = 11
+    #=> a = 21, b = 31, c = 5, d=[], e = 11
 
 Since each required value gets an assigned value, the default value kicks in with its default, and the optional, or splat(*) argument would return an empty array. 
 
