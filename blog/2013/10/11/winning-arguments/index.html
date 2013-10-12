@@ -1,0 +1,228 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Winning Arguments. - Sonja Hall</title>
+	<meta name="author" content="Sonja Hall">
+
+	
+	<meta name="description" content="Parentheses are a subtle to include information in literature. They group numbers together in math equations, trail behind long organization titles &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Sonja Hall" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Sonja Hall</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:sonejah21.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:sonejah21.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Winning Arguments.</h2>
+	<div class="entry-content"><p>Parentheses are a subtle to include information in literature. They group numbers together in math equations, trail behind long organization titles in news reports, and even distinguish between an area code and a person&rsquo;s unique telephone number.</p>
+
+<p>When we switch gears into Ruby, parentheses are no longer representative of a polite nudge like they once were to us. Sitting alongside a method, they&rsquo;re now considered powerful argumentation.</p>
+
+<!-- more -->
+
+
+<p>In a blogpost written by a <a href="http://www.skorks.com/2009/08/method-arguments-in-ruby/">Alan Skorkin</a>, he says that contrary to popular belief, a method argument should be broken up into three separate, and easily digestible categories: required arguments, arguments with default values, and optional arguments.</p>
+
+<p><img src="/images/2013-10-11/image-1.jpg" alt="Required arguments." /></p>
+
+<h3>Required arguments (aka: &ldquo;Ordinal Params&rdquo;)</h3>
+
+<p>Required arguments are your run-of-the-mill arguments. Nothing left to the imagination, require arguments are straightforward in their approach to gathering information from other sources.</p>
+
+<pre><code>def method_example( x, y )
+end 
+</code></pre>
+
+<p>Once you have defined your method, you will always need to provide the same number of arguments when calling the method.</p>
+
+<pre><code>method_example( 2013, "Flatiron School" )
+</code></pre>
+
+<p><img src="/images/2013-10-11/image-4.jpg" alt="Arguments with Default Values." /></p>
+
+<h3>Arguments with Default Values (aka: &ldquo;Params with Default Values&rdquo;)</h3>
+
+<p>Instead of assigning a specific number of arguments, you may also assign assigning a default value to an argument.</p>
+
+<pre><code>def horse_method( x, y, z = "appaloosa" )
+end
+</code></pre>
+
+<p>You can then call this method in one of two ways:</p>
+
+<pre><code>horse_method( 2, "shire" )
+#=&gt; horse_method( 2, "shire", "appaloosa")
+</code></pre>
+
+<p> <em>&ndash; OR &ndash;</em></p>
+
+<pre><code>horse_method( 2,  "shire",  "thoroughbred" )
+</code></pre>
+
+<p>The first example (above) calls the method without placing a value as its third parameter, resulting in the default value filled in as its third parameter. The second example has three parameters set and does not need to use the default value.</p>
+
+<p><img src="/images/2013-10-11/image-2.jpg" alt="Optional Arguments." /></p>
+
+<h3>Optional arguments (aka: &ldquo;Arguments as an Array&rdquo;)</h3>
+
+<p>This is a special method argument that Ruby allows you to use that many refer to as &ldquo;splat&rdquo;.</p>
+
+<p>To see an excellent blogpost describing splat&rsquo;s usage in more depth, check out <a href="http://manu3569.github.io/blog/2013/10/08/what-the-splat/">Manuel Neuhauser</a>&rsquo;s blog on the topic.</p>
+
+<p>At a basic level, the optional argument allows you to decide at runtime how many arguments you&rsquo;ll supply to a method:</p>
+
+<pre><code>def caffe_method( *italian_favorites )
+end
+</code></pre>
+
+<p>Which could be called with:</p>
+
+<pre><code>caffe_method( "cappuccino", "espresso", "macchiato" )
+#=&gt; [ "cappuccino", "espresso", "macchiato" ] 
+</code></pre>
+
+<p>You can then call it with any number of arguments, or no methods at all, resulting in an array with the exact number of arguments specified (or none at all if no arguments were defined).</p>
+
+<p><img src="/images/2013-10-11/image-3.jpg" alt="Arguments that combine a bit of everything." /></p>
+
+<h3>Combinations</h3>
+
+<p>In addition to the three general uses of method arguments in Ruby, all of them can be mixed and matched together, creating a unique assortment of required, default values, and optional arguments.</p>
+
+<p>For example:</p>
+
+<pre><code>def combination_method( a,  b,  c = 5, *d , e)
+end
+</code></pre>
+
+<p>If called with:</p>
+
+<pre><code>combination_method( 21, 31, 11 )
+
+#=&gt; a = 21, b = 31, c = 5, d=[], e = 11
+</code></pre>
+
+<p>Since each required value gets an assigned value, the default value kicks in with its default, and the optional, or splat(*) argument would return an empty array.</p>
+
+<p>While method arguments are seemingly basic at first glance, understanding the way they work by themselves, with default values and optional parameters, as well in unison while all hanging out in the same set of parentheses is an integral stepping stone to making your beginner Ruby methods function properly.</p>
+
+<p>Happy arguing!</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-11T00:00:00-04:00" pubdate data-updated="true">Oct 11<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Sonja Hall
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
