@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tried and True Testing the RSpec Way."
+title: "Tried and True Testing: The RSpec Way"
 date: 2013-10-25
 comments: true
 categories: 
