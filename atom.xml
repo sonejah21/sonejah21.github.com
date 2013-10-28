@@ -4,7 +4,7 @@
   <title><![CDATA[Sonja Hall]]></title>
   <link href="http://sonejah21.github.io/atom.xml" rel="self"/>
   <link href="http://sonejah21.github.io/"/>
-  <updated>2013-10-28T10:59:08-04:00</updated>
+  <updated>2013-10-28T11:02:02-04:00</updated>
   <id>http://sonejah21.github.io/</id>
   <author>
     <name><![CDATA[Sonja Hall]]></name>
@@ -25,14 +25,14 @@
 
 <p style="text-align:center;"><img src="http://sonejah21.github.io/images/2013-10-25/rspec_blogpost_5.png" alt= "RSpec image" style="width: 400px;"/></p>
 
+<!-- more -->
+
+
 <p>Thinking I could forever hide from writing RSpec tests has been another story. In an effort to meet my nemesis head-on, I decided to dedicate this post to the RSpec testing conventions that have silently betrayed my native language (English) with its seemingly lenient codes that are easily digestible and therefore impossible to remember.</p>
 
 <p>Sidenote: Check out Gregg Pollack&rsquo;s <a href="http://blog.envylabs.com/post/29015255528/we-aint-got-no-rspec">&ldquo;We Ain&rsquo;t Got No RSpec&rdquo; </a>blogpost from a couple years ago. It&rsquo;s a voicemail left on the Envy Labs voicemail that they remixed, and it will definitely get you in the mood to write some RSpec.</p>
 
 <p style="text-align:center;"><a href="http://blog.envylabs.com/post/29015255528/we-aint-got-no-rspec"><img src="http://sonejah21.github.io/images/2013-10-25/rspec_blogpost_6.jpg" alt="We Ain't Got No RSpec - Envy Labs." style="width: 400px;"/></a></p>
-
-<!-- more -->
-
 
 <p>My first homework assignment that dealt with RSpec was among the most frustrating because I had no idea I could look at the test results. Needless to say, I spent hours not passing any at all. If I recall correctly, I asked Avi for help the next day and mid-way through the exercise, we had this first conversation:</p>
 
